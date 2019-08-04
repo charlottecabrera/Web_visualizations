@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Bootstrap Visualization Dashboard</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        
+
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+         
+
+         
+
+        <nav class="navbar navbar-default">
+
+           <div class="container-fluid">
+
+               <!-- Brand and toggle get grouped for better mobile display -->
+
+               <div class="navbar-header">
+
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                       <span class="sr-only">Toggle navigation</span>
+
+                       <span class="icon-bar"></span>
+
+                       <span class="icon-bar"></span>
+
+                       <span class="icon-bar"></span>
+
+                   </button>
+
+                   <a class="navbar-brand" href="index.html">Latitude</a>
+
+               </div>
+
+             
+
+                 <!-- Collect the nav links, forms, and other content for toggling -->
+
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+       
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                      
+
+                        <li class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a href="maxtemp.html">Max Temperature</a></li>
+
+                            <li><a href="humidity.html">Humidity</a></li>
+
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+
+                            <li><a href="windspeed.html">Wind Speed</a></li>
+
+                                    
+
+                        </ul>
+
+                                
+
+                        
+
+                           
+
+                       <li><a href="comparison.html">Comparison</a></li>
+
+                       <li><a href="data.html">Data</a></li>
+
+                    </ul>
+
+               </div><!-- /.navbar-collapse -->
+
+
+
+           </div><!-- /.container-fluid -->
+
+       </nav>
+
+       <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-8">
+
+                    <section class="chart_page">
+
+                    
+
+                        <h1 class="page-h1">Wind Speed</h1>
+
+                        <hr class="hr-page"/>
+
+                        <img class="img-responsive" src="output_16_0.png" alt="City_Latitude_vs_Wind_Speed"/>
+
+                        <p>There is no noticeable correlation between latitude and wind speed. 
+
+                        The wind speed for the majority of cities is less than 15 mph. </p>
+
+                           
+
+                   
+
+                    </section>
+
+                </div>
+
+
+
+                <div class="col-md-4">
+
+                    <section class="add-summary">
+
+                        <h2 id="vis-h2">Visualizations</h2>
+
+                        <hr class="hr-page"/>
+
+                        <div class="div_vis_img">
+
+                            <a  href="maxtemp.html"><img class="vis_img" src="output_10_0.png" alt="City_Latitude_vs_Max_Temperature"/></a>
+
+                            <a  href="humidity.html"><img class="vis_img" src="output_12_0.png" alt="City_Latitude_vs_Humidity"/></a>
+
+                            <a href="cloudiness.html"><img class="vis_img" src="output_14_0.png" alt="City_Latitude_vs_Cloudiness"></a>
+
+                            <a href="windspeed.html"><img class="vis_img" src="output_16_0.png" alt="City_Latitude_vs_Wind_Speed"></a>
+
+                        </div>
+
+                    
+
+                    </section>
+
+
+
+                </div>
+
+            </div>
+
+        </div>      
+
+
+
+
+
+
+
+
+
+         <div class="footer navbar-fixed-bottom">
+
+        
+
+             <div class="footer-top"></div>
+
+
+
+             <div class="container">
+
+                
+
+                <p class="footer-text"></p>
+
+             </div>
+
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- jQuery and Bootstrap (necessary for Bootstrap's JavaScript plugins) -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    </body>
+
+</html>
